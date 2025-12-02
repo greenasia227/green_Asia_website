@@ -28,6 +28,7 @@ from django.conf import settings
 from django.db import models
 from .forms import ContactForm
 from .models import ContactMessage
+
 # Create your views here.
 def index(request):
         return render(request, 'index.html')
