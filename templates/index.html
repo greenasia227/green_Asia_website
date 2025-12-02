@@ -1,0 +1,745 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Green Asia Energy Pvt.Ltd</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    
+
+
+    <!-- Favicon -->
+    <link href="{% static 'img/favicon.ico' %}" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="{% static 'lib/animate/animate.min.css' %}" rel="stylesheet">
+    <link href="{% static 'lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+    <link href="{% static 'lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css' %}" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+</head>
+
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+<!-- Topbar Start -->
+<div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s" style="background-color: #110850;">
+
+
+    <div class="row gx-0 d-none d-lg-flex">
+        <div class="col-lg-7 px-5 text-start">
+            <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                <small>123 Street, India , Maharashtra</small>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center py-3">
+                <small class="far fa-clock text-primary me-2"></small>
+                <small>Mon - Sat: 10.00 AM - 06.00 PM</small>
+            </div>
+        </div>
+        <div class="col-lg-5 px-5 text-end">
+            <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                <small class="fa fa-phone-alt text-primary me-2"></small>
+                <small>9226572973</small>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center">
+                <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href="https://www.linkedin.com/company/109464513/admin/dashboard/"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-sm-square rounded-circle bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Topbar End -->
+
+   <!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
+
+    <!-- LEFT SIDE: LOGO + COMPANY NAME -->
+    <a href="#" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <img src="{% static 'img/logo.PNG' %}" alt="logo" style="width:60px; height:auto; margin-right:10px;">
+        <h1 class="m-0" style="color: black;">GREEN ASIA ENERGY PVT.LTD</h1>
+    </a>
+
+    <!-- TOGGLER -->
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- RIGHT SIDE: MENU -->
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="/index" class="nav-item nav-link">Home</a>
+            <a href="/about" class="nav-item nav-link">About</a>
+            <a href="/service" class="nav-item nav-link">Service</a>
+            <a href="/contact" class="nav-item nav-link">Contact</a>
+        </div>
+    </div>
+
+</nav>
+<!-- Navbar End -->
+
+
+
+    <!-- Header Start -->
+    <div class="container-fluid header bg-primary p-0 mb-5">
+        <div class="row g-0 align-items-center flex-column-reverse flex-lg-row">
+            <div class="col-lg-6 p-5 wow fadeIn" data-wow-delay="0.1s">
+                <h1 class="display-4 text-white mb-5">Powering a Sustainable Future with Intelligent Renewable Energy Solutions</h1>
+                <div class="row g-4">
+                    <div class="col-sm-4">
+                        <div class="border-start border-light ps-4">
+                           
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="border-start border-light ps-4">
+                            
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="border-start border-light ps-4">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                <div class="owl-carousel header-carousel">
+                    <div class="owl-carousel-item position-relative">
+                        <img class="img-fluid" src="{% static 'img/wind6.png' %}" alt="">
+                        <div class="owl-carousel-text">
+                            <h1 class="display-1 text-white mb-0"></h1>
+                        </div>
+                    </div>
+                    <div class="owl-carousel-item position-relative">
+                        <img class="img-fluid" src="{% static 'img/wind2.jpg' %}" alt="">
+                        <div class="owl-carousel-text">
+                            <h1 class="display-1 text-white mb-0"></h1>
+                        </div>
+                    </div>
+                    <div class="owl-carousel-item position-relative">
+                        <img class="img-fluid" src="{% static 'img/wind3.png' %}" alt="">
+                        <div class="owl-carousel-text">
+                            <h1 class="display-1 text-white mb-0"></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="d-flex flex-column">
+                    <img class="img-fluid rounded align-self-end" src="{% static 'img/wind5.png' %}" alt="" 
+                    style="width: 100%; height: auto;">
+                    <img class="img-fluid rounded bg-white pt-3 pe-3" src="{% static 'img/wind1.jpg' %}" alt="" 
+                    style="width: 60%; height: auto; margin-top: -10%;">
+                    </div>
+                </div>
+                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <p class="d-inline-block border rounded-pill py-1 px-4">About Us</p>
+                    <h1 class="mb-4">Why Renewable Energy Matters</h1>
+                    <p> Green Asia Energy Pvt.Ltd is a leading renewable energy solution provider,specializing in wind and solar power systems. we are committed to delivering high-quality,inovative and cost effective energy solution for residential,commercial, industrial and infrastruture project. our expertise extends across project exicustion, Engineering procurement and maintanence,ensuring sustanable and efficient energy Utilization.</p>
+                    <p class="mb-4">We empower clients with clean, reliable, and future-ready energy solutions designed to reduce carbon footprint and optimize 
+        energy performance. Our team ensures seamless integration of renewable technologies using advanced engineering and 
+        environmentally responsible practices.</p>
+                    <p><i class="far fa-check-circle text-primary me-3"></i>High-quality solar & wind solutions</p>
+                    <p><i class="far fa-check-circle text-primary me-3"></i>Experienced engineering professionals</p>
+                    <p><i class="far fa-check-circle text-primary me-3"></i>End-to-end project execution & maintenance</p>
+                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+<!--chatbot-->
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Green Bot</title>
+
+    <style>
+        body { font-family: Arial; }
+
+        /* Floating Icon */
+        #chatIcon {
+            position: fixed;
+            bottom: 100px;
+            right: 25px;
+            background: #2d6a4f;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-size: 30px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            z-index: 1000;
+        }
+
+        /* Popup Chat Window */
+        #chatWindow {
+            position: fixed;
+            bottom: 160px;
+            right: 25px;
+            width: 320px;
+            height: 420px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+            display: none;
+            flex-direction: column;
+            z-index: 1000;
+        }
+
+        #chatHeader {
+            background: #2d6a4f;
+            padding: 12px;
+            color: white;
+            font-size: 18px;
+            border-radius: 12px 12px 0 0;
+        }
+
+        #messages {
+            padding: 10px;
+            height: 300px;
+            overflow-y: auto;
+            background: #f7f7f7;
+        }
+
+        .user { margin: 10px 0; color: blue; }
+        .bot { margin: 10px 0; color: #1b4332; }
+
+        #inputBox {
+            display: flex;
+            padding: 10px;
+            border-top: 1px solid #ddd;
+        }
+
+        #userMessage {
+            flex: 1;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #bbb;
+        }
+
+        #sendBtn {
+            margin-left: 10px;
+            background: #2d6a4f;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+<!-- 🔵 Floating Chat Icon -->
+<div id="chatIcon">💬</div>
+
+<!-- 🟢 Chat Window -->
+<div id="chatWindow">
+    <div id="chatHeader">Green Bot</div>
+
+    <div id="messages"></div>
+
+    <div id="inputBox">
+        <input type="text" id="userMessage" placeholder="Type message...">
+        <button id="sendBtn">Send</button>
+    </div>
+</div>
+
+<script>
+    // Open/Close Chat Window
+    $("#chatIcon").click(function () {
+        $("#chatWindow").toggle();
+    });
+
+    // Send message
+    $("#sendBtn").click(function () {
+        sendMessage();
+    });
+
+    $("#userMessage").keypress(function (e) {
+        if (e.keyCode === 13) sendMessage();
+    });
+
+    function sendMessage() {
+        let message = $("#userMessage").val();
+        if (!message.trim()) return;
+
+        $("#messages").append("<div class='user'><b>You:</b> " + message + "</div>");
+
+        $.ajax({
+            url: "{% url 'chatbot_response' %}",
+            method: "POST",
+            data: {
+                message: message,
+                csrfmiddlewaretoken: "{{ csrf_token }}"
+            },
+            success: function(res) {
+                $("#messages").append("<div class='bot'><b>Bot:</b> " + res.response + "</div>");
+                $("#userMessage").val("");
+                $("#messages").scrollTop($("#messages")[0].scrollHeight);
+            }
+        });
+    }
+</script>
+
+</body>
+</html>
+<!--chatbot end -->
+
+
+   <!-- Service Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <p class="d-inline-block border rounded-pill py-1 px-4">Services</p>
+            <h1>Renewable Energy Solutions</h1>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Solar Power Solution -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item bg-light rounded h-100 p-5">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                         style="width: 65px; height: 65px;">
+                        <i class="fa fa-sun text-primary fs-4"></i>
+                    </div>
+                    <h4 class="mb-3">Solar Power Solutions</h4>
+                    <p class="mb-4">Installation & Commissioning:Turnkey solutions for rooftop and ground-mounted solar power systems.</p>
+                    <p class="mb-4">Irrigation & Agriculture Solar Solutions:we offer solar powered irrigation pumps for efficient water managments.</p>
+                    <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                </div>
+            </div>
+
+            <!-- Electrical Engineering & Grid Integration -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item bg-light rounded h-100 p-5">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                         style="width: 65px; height: 65px;">
+                        <i class="fa fa-bolt text-primary fs-4"></i>
+                    </div>
+                    <h4 class="mb-3">Electrical Engineering & Grid Integration</h4>
+                    <p class="mb-4">Solar and Wind Hybrid System: Integrated Renewable Energy solution for optimized power generation.</p>
+                    <p class="mb-4">Electrical Infrastructure Development:High-voltage transmission, substation development, and power grid integration.</p>
+                    <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                </div>
+            </div>
+
+            <!-- Sustainable Construction & Green Infrastructure -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item bg-light rounded h-100 p-5">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                         style="width: 65px; height: 65px;">
+                        <i class="fa fa-leaf text-primary fs-4"></i>
+                    </div>
+                    <h4 class="mb-3">Sustainable Construction & Green Infrastructure</h4>
+                    <p class="mb-4">Solar and Wind Construction Projects:Infrastructure, structural support, and site preparation.</p>
+                    <p class="mb-4">Green Building Integration:Implementing renewable energy solutions for sustainable buildings.</p>
+                    <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                </div>
+            </div>
+
+            <!-- Wind Energy Solution -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item bg-light rounded h-100 p-5">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                         style="width: 65px; height: 65px;">
+                        <i class="fa fa-wind text-primary fs-4"></i>
+                    </div>
+                    <h4 class="mb-3">Wind Energy Solutions</h4>
+                    <p class="mb-4">Wind Turbine Installation and Integration:End-to-end services for wind power projects.</p>
+                    <p class="mb-4">Civil and Foundation Word From Wind Farms:Infrastructure and foundation construction tailored for wind turbine installations.</p>
+                    <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                </div>
+            </div>
+
+            <!-- Technical Consulting & R&D -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item bg-light rounded h-100 p-5">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                         style="width: 65px; height: 65px;">
+                        <i class="fa fa-tools text-primary fs-4"></i>
+                    </div>
+                    <h4 class="mb-3">Technical Consulting & R&D</h4>
+                    <p class="mb-4">Energy Efficiency: Audits,Optimization statergies and innovative power-saving techniques.</p>
+                    <p class="mb-4">Research & Development: Continuous innovation in green energy technology for better efficiency and sustainability.</p>
+                    <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                </div>
+            </div>
+
+            <!-- Green Energy Awareness & Training -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item bg-light rounded h-100 p-5">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                         style="width: 65px; height: 65px;">
+                        <i class="fa fa-graduation-cap text-primary fs-4"></i>
+                    </div>
+                    <h4 class="mb-3">Green Energy Awareness & Training</h4>
+                    <p class="mb-4">Workshops & Skill Development Programs:Training sessions on renewable energy technologies and best practices.</p>
+                    <p class="mb-4">Public Awareness Campaigns:Promoting clean energy adoption and sustainability initiatives.</p>
+                    <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+
+
+
+ <!-- Feature Start -->
+<div class="container-fluid bg-gradient-primary overflow-hidden my-5 px-lg-0" 
+     style="background: linear-gradient(135deg, #0a2540, #113d6b);">
+    <div class="container feature px-lg-0">
+        <div class="row g-0 mx-lg-0">
+            
+            <!-- Text Section -->
+            <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
+                <div class="p-lg-5 ps-lg-0">
+                    
+                    <p class="d-inline-block border rounded-pill text-light py-1 px-4"
+                       style="border-color: rgba(255,255,255,0.5); font-weight: 500;">
+                       Why Choose GreenAsia Energy Pvt. Ltd.?
+                    </p>
+                    
+                    <h1 class="text-white mb-4" style="font-weight: 700;">
+                        Expertise in Renewable Energy Solutions
+                    </h1>
+                    
+                    <p class="text-light mb-4 pb-2" style="font-size: 16px;">
+                        Specialists in solar & wind power integration backed by a team with over 15 years of 
+                        experience delivering efficient, reliable, and sustainable energy systems.
+                    </p>
+                    
+                    <div class="row g-4">
+                        
+                        <!-- Turnkey Project Execution -->
+                        <div class="col-6">
+                            <div class="d-flex align-items-center">
+                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white shadow"
+                                     style="width: 55px; height: 55px;">
+                                    <i class="fa fa-solar-panel text-primary"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <p class="text-light mb-2">Turnkey Project Execution</p>
+                                    <h5 class="text-white mb-0">Design to commissioning under one roof.</h5>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Sustainability Commitment -->
+                        <div class="col-6">
+                            <div class="d-flex align-items-center">
+                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white shadow"
+                                     style="width: 55px; height: 55px;">
+                                    <i class="fa fa-leaf text-primary"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <p class="text-light mb-2">Sustainability First</p>
+                                    <h5 class="text-white mb-0">Reducing carbon footprint responsibly.</h5>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Cutting-Edge Technology -->
+                        <div class="col-6">
+                            <div class="d-flex align-items-center">
+                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white shadow"
+                                     style="width: 55px; height: 55px;">
+                                    <i class="fa fa-bolt text-primary"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <p class="text-light mb-2">Cutting-Edge Technology</p>
+                                    <h5 class="text-white mb-0">Efficient & cost-optimized energy solutions.</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Customer Support -->
+                        <div class="col-6">
+                            <div class="d-flex align-items-center">
+                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white shadow"
+                                     style="width: 55px; height: 55px;">
+                                    <i class="fa fa-headset text-primary"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <p class="text-light mb-2">Dedicated Support</p>
+                                    <h5 class="text-white mb-0">Smooth installation & reliable maintenance.</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image Section -->
+            <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute img-fluid w-100 h-100"
+                         src="{% static 'img/wind7.jpg' %}" 
+                         style="object-fit: cover; filter: brightness(0.95); border-radius: 0;">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Feature End -->
+
+
+
+
+    <!-- Team Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 650px;">
+            <p class="d-inline-block rounded-pill py-1 px-4" 
+               style="border: 2px solid #0B5ED7; color: #0B5ED7; font-weight: 600; letter-spacing: 1px;">
+               Our Team
+            </p>
+            <h1 style="font-size: 42px; font-weight: 700; color: #06283D; text-transform: capitalize; margin-top: 10px; letter-spacing: 1px;">
+                Meet With Our Experts
+            </h1>
+        </div>
+
+        <!-- Team Members Row 1 -->
+        <div class="row g-4">
+            <!-- Member 1 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item position-relative rounded overflow-hidden">
+                    <img class="img-fluid" src="{% static 'img/profile1.png' %}" alt="">
+                    <div class="team-text bg-light text-center p-4">
+                        <h5>Mr. Shivshankar Shrihari Bhosale</h5>
+                        <p class="text-primary">CEO and Director</p>
+                        <div class="team-social text-center">
+                            <a class="btn btn-square" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Member 2 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item position-relative rounded overflow-hidden">
+                    <img class="img-fluid" src="{% static 'img/profile1.png' %}" alt="">
+                    <div class="team-text bg-light text-center p-4">
+                        <h5>Dr. Balasahib Bhosale</h5>
+                        <p class="text-primary">Administrative Head</p>
+                        <div class="team-social text-center">
+                            <a class="btn btn-square" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Member 3 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item position-relative rounded overflow-hidden">
+                    <img class="img-fluid" src="{% static 'img/profile1.png' %}" alt="">
+                    <div class="team-text bg-light text-center p-4">
+                        <h5>Ms. Himani Jain</h5>
+                        <p class="text-primary">Technical & Business Development Head</p>
+                        <div class="team-social text-center">
+                            <a class="btn btn-square" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Members Row 2 -->
+        <div class="row g-4 mt-4">
+            <!-- Member 4 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item position-relative rounded overflow-hidden">
+                    <img class="img-fluid" src="{% static 'img/profile1.png' %}" alt="">
+                    <div class="team-text bg-light text-center p-4">
+                        <h5>Mr. Rohit Vijayrao Bhosale</h5>
+                        <p class="text-primary">Operational Manager</p>
+                        <div class="team-social text-center">
+                            <a class="btn btn-square" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Member 5 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item position-relative rounded overflow-hidden">
+                    <img class="img-fluid" src="{% static 'img/profile1.png' %}" alt="">
+                    <div class="team-text bg-light text-center p-4">
+                        <h5>Mr. Gangadhar Patil</h5>
+                        <p class="text-primary">Project Head</p>
+                        <div class="team-social text-center">
+                            <a class="btn btn-square" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Member 6 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item position-relative rounded overflow-hidden">
+                    <img class="img-fluid" src="{% static 'img/profile1.png' %}" alt="">
+                    <div class="team-text bg-light text-center p-4">
+                        <h5>Dr. Nitin Chavan</h5>
+                        <p class="text-primary">Development Officer</p>
+                        <div class="team-social text-center">
+                            <a class="btn btn-square" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- Team End -->
+
+
+
+
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+
+            <!-- Address -->
+            <div class="col-lg-5 col-md-8">
+                <h5 class="text-light mb-4">Address</h5>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Reg.Office : 73, B Wing, Jai Ganesh Vision,Akurdi, Pune-411035</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>9226572973</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>greenasiaenergy@gmail.com</p>
+
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <!-- Services -->
+            <div class="col-lg-4 col-md-8">
+                <h5 class="text-light mb-4">Services</h5>
+                <a class="btn btn-link" href="">Solar Power Solutions</a>
+                <a class="btn btn-link" href="">Wind Energy Solutions</a>
+                <a class="btn btn-link" href="">Electrical Engineering & Grid Integration</a>
+                <a class="btn btn-link" href="">Renewable Energy Project Management</a>
+                <a class="btn btn-link" href="">Sustainable Construction & Green Energy Infrastructure</a>
+                <a class="btn btn-link" href="">Technical Consulting & R&D</a>
+                <a class="btn btn-link" href="">Aggregator & Supply Chain Services</a>
+                <a class="btn btn-link" href="">Green Energy Awareness & Training</a>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-lg-3 col-md-8">
+                <h5 class="text-light mb-4">Quick Links</h5>
+                <a class="btn btn-link" href="">About Us</a>
+                <a class="btn btn-link" href="">Contact Us</a>
+                <a class="btn btn-link" href="">Our Services</a>
+                <a class="btn btn-link" href="">Terms & Condition</a>
+                <a class="btn btn-link" href="">Support</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">Green Asia Energy pvt.Ltd</a> All Right Reserved.
+                </div>
+
+               
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{% static 'lib/wow/wow.min.js' %}"></script>
+    <script src="{% static 'lib/easing/easing.min.js' %}"></script>
+    <script src="{% static 'lib/waypoints/waypoints.min.js' %}"></script>
+    <script src="{% static 'lib/counterup/counterup.min.js' %}"></script>
+    <script src="{% static 'lib/owlcarousel/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'lib/tempusdominus/js/moment.min.js' %}"></script>
+    <script src="{% static 'lib/tempusdominus/js/moment-timezone.min.js' %}"></script>
+    <script src="{% static 'lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js' %}"></script>
+
+    <!-- Template Javascript -->
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+
+</html>
